@@ -1,5 +1,5 @@
 import React from 'react'
-import portrait from "../images/downlaod.png"
+import portrait from "../images/Download.png"
 
 const Home = () => {
   return (
