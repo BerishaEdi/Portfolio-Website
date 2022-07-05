@@ -8,7 +8,7 @@ const AboutMe = () => {
               <h2 className='abouteMeTitel'>About Me</h2>
             </div>
         
-            <div>
+            <div className='image'>
               <img src={waves} alt="background" className='waves'></img>
             </div>
         </div>
