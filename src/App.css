@@ -1,7 +1,6 @@
 .titel {
   text-align: center;
-  text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .portrait {
@@ -10,7 +9,6 @@
 
 .aboutMe {
   font-size: 2rem;
-  text-align: center;
   text-align: center;
 
 }
@@ -30,28 +28,29 @@
 }
 
 .button {
-  width: 150px;
-  height: 80px;
-  margin: 10px;
+  width: 1em;
+  height: 1em;
+  margin: 1em;
 }
 
 .timeline {
   background-color:#0B0B17;
-  margin-top: -10px;
-  height: 1000px;
+  margin-top: -10em;
+  height: 30em;
   width: 100%;
+  
 }
 
+.imgTimeline {
+  width: 50%;
+}
+
+
 .txtAusbildung {
-  margin-top: 8cm;
+  margin-top: 5em;
   color: aliceblue;
 
 }
-
-.flipedWaves {
-  width: 100%;
-}
-
 
 .titelSkills {
   text-align: center;
@@ -62,7 +61,15 @@
   justify-content: center;
 }
 
+.skillicons{
+  width: 60%;
+}
+
 .svg {
   width: 100%;
-  margin-bottom: -9cm;
+  margin-bottom: -10em;
+}
+
+.svgflipped {
+  width: 100%;
 }
