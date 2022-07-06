@@ -10,7 +10,16 @@
 .aboutMe {
   font-size: 2rem;
   text-align: center;
+}
 
+.aboutmeTitel {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.aboutmeTiteltxt {
+  text-align: center;
+  font-size: 3rem;
 }
 
 .waves {
@@ -35,8 +44,7 @@
 
 .timeline {
   background-color:#0B0B17;
-  margin-top: -10em;
-  height: 30em;
+  margin-top: -12.5em;
   width: 100%;
   
 }
@@ -47,8 +55,10 @@
 
 
 .txtAusbildung {
-  margin-top: 5em;
+  margin-top: 8em;
   color: aliceblue;
+  background-color:#0B0B17;
+  vertical-align: bottom;
 
 }
 
@@ -91,5 +101,5 @@
 .calculatorLink:hover {
   color: red;
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }

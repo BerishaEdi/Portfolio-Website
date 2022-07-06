@@ -5,8 +5,8 @@ import timeline from "../images/timeline.png"
 const AboutMe = () => {
   return (
         <div className='aboutMe'>
-            <div className='titel'>
-              <h2 className='abouteMeTitel'>About Me</h2>
+            <div className='aboutmeTitel'>
+              <h2 className='aboutmeTiteltxt'>About Me</h2>
             </div>
             <div className='svg'>
             <svg
