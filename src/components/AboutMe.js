@@ -39,7 +39,9 @@ const AboutMe = () => {
                   ></path>
                   </svg>
               </div>
-
+            <div className='filler'>
+                a
+            </div>
             <div className='timeline'>
               <p className='txtAusbildung'>Lebenslauf</p>
               <img src={timeline} alt="timeline" className='imgTimeline'></img>
