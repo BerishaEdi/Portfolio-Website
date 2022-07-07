@@ -15,13 +15,13 @@ const Projects = () => {
           </div>
 
           <div class="div2"> 
-            <a className='calculatorLink' href="https://portfolio.bbbaden.ch/user/e-berisha-inf20/la-1305-react-nativ-taschenrechner">Java Platformer</a>
-            <img src={platformerImg} alt="platformerIMG" width="91%" height="auto" className='platformerimg'></img>
+            <a className='calculatorLink' href="https://portfolio.bbbaden.ch/user/e-berisha-inf20/la-1305-react-nativ-taschenrechner">Java <br></br> Platformer</a>
+            <img src={platformerImg} alt="platformerIMG" width="80%" height="auto" className='platformerimg'></img>
           </div>
 
           <div class="div3">  
-            <a className='calculatorLink' href="https://portfolio.bbbaden.ch/user/e-berisha-inf20/la-1305-react-nativ-taschenrechner">Discord Bot</a>
-            <img src={botImg} alt="botIMG" width="100%" height="auto" className='botimg'></img>
+            <a className='calculatorLink' href="https://portfolio.bbbaden.ch/user/e-berisha-inf20/la-1305-react-nativ-taschenrechner">Discord <br></br> Bot</a>
+            <img src={botImg} alt="botIMG" width="80%" height="auto" className='botimg'></img>
           </div>
 
         </div>
