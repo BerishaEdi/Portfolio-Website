@@ -1,6 +1,6 @@
 .titel {
   text-align: center;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .portrait {
@@ -44,7 +44,7 @@
 
 .timeline {
   background-color:#0B0B17;
-  margin-top: -12.5em;
+  margin: 0;
   width: 100%;
   
 }
@@ -55,10 +55,13 @@
 
 
 .txtAusbildung {
-  margin-top: 8em;
+
   color: aliceblue;
   background-color:#0B0B17;
-  vertical-align: bottom;
+  text-align: center;
+  margin-top: 9em;
+  border-top: #0B0B17;
+  border-top:10em ;
 
 }
 
@@ -82,11 +85,10 @@
 
 .svgflipped {
   width: 100%;
-  margin-top: -0.8em;
 }
 
 .titelProjects {
-  margin: 3em;
+  margin: 1em;
   text-align: center;
   font-size: 5rem;
 }
