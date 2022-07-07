@@ -8,7 +8,7 @@ const Projects = () => {
         <div class="grid">
 
           <div class="div1"> <a className='calculatorLink' href="https://portfolio.bbbaden.ch/user/e-berisha-inf20/la-1305-react-nativ-taschenrechner">React-Native Taschenrechner</a>
-            <img src={calculatorImg} alt="CalculatorIMG" width="400" height="740" className='calculatorimg'></img>
+            <img src={calculatorImg} alt="CalculatorIMG" width="100%" height="90%" className='calculatorimg'></img>
           </div>
 
           <div class="div2"> 
