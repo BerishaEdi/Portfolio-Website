@@ -1,11 +1,14 @@
 import React from 'react'
-import skillsIcons from "../images/icons.png"
+import skills from "../images/skills.png"
+
+
+
 const Skills = () => {
   return (
     <div>
-        <h3 className='titelSkills'>Skills</h3>
-        <div className='skills'>
-            <img src={skillsIcons} alt="skills" className='skillicons'></img>
+        <p className='titelSkills'>Skills</p>
+        <div className='skillsimg'>
+          <img src={skills} alt="Skill" className='skillsimg' width="40%"></img>
         </div>
     </div>
     

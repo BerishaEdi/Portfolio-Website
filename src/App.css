@@ -1,7 +1,14 @@
 .titel {
   text-align: center;
   font-size: 4rem;
+  margin-top: 10%;
 }
+
+.homeGrid{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
 
 .portrait {
   justify-self: right;
@@ -71,15 +78,14 @@
 
 .titelSkills {
   text-align: center;
+  font-size: 5rem;
+  font-weight: bold;
+  margin-top: -1em;
 }
 
 .skills {
   display: flex;
   justify-content: center;
-}
-
-.skillicons{
-  width: 60%;
 }
 
 .svg {
@@ -103,7 +109,7 @@
   justify-content: center;
   color: black;
   text-decoration: none;
-  font-size: 200%;
+  font-size: 2rem;
 }
 
 .Link:link {
@@ -192,4 +198,10 @@
   grid-template-columns: 1fr auto 1fr;
   margin-top: 0.5em;
   font-size: 1.5rem;
+}
+
+.skillsimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
