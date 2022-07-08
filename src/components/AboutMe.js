@@ -43,10 +43,10 @@ const AboutMe = () => {
                 a
             </div>
             <div className='timeline'>
-              <p className='txtAusbildung'>Lebenslauf</p>
+              <p className='txtAusbildung'>Ausbildung</p>
               <img src={timeline} alt="timeline" className='imgTimeline'></img>
             </div>
-
+            
 
             <div className='svgflipped'>
             <svg
