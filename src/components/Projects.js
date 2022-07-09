@@ -6,7 +6,7 @@ import botImg from "../images/bot.png"
 const Projects = () => {
   return (
     <div>
-        <h1 className='titelProjects'>Projekte</h1>
+        <p className='titelProjects'>Projekte</p>
         <div class="grid">
 
           <div class="div1"> 
