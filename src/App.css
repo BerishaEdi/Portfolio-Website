@@ -1,17 +1,29 @@
 .titel {
-  text-align: center;
-  font-size: 4rem;
-  margin-top: 10%;
+  text-align: left;
+  font-size: 3.5rem;
+  margin-top: 20%;
+}
+
+.titelAdd {
+  margin-top: -35px;
+  margin-left: 2px;
+  text-align: left;
+  font-size: 2rem;
+  color: gray;
 }
 
 .homeGrid{
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
 }
 
-
 .portrait {
-  justify-self: right;
+  justify-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+  
 }
 
 .aboutMe {
