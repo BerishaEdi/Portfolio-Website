@@ -8,9 +8,9 @@ const Navbar = () => {
             <button className="button">Click Me!</button>
             <button className="button">Click Me!</button>
             <button className="button">Click Me!</button>
-           */}
-        <a href="#kontakt">Sushi</a>
-        <a href="#bbq">BBQ</a>
+        <a href="#kontakt"></a>
+        <a href="#"></a>
+        */}
       </div>
     </div>
   )
