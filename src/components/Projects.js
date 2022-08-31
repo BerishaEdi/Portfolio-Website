@@ -13,7 +13,7 @@ const Projects = () => {
             <a className='Link' href="https://portfolio.bbbaden.ch/view/view.php?t=SJGn4xsRp0Zj7XFD316b">React-Native <br></br> Taschenrechner</a>
             <div className='innergrid'>
               <div>
-                <a className='githubLink' href="https://github.com/BerishaEdi/Portfolio-Website">Github</a>
+                <a className='githubLink' href="https://github.com/BerishaEdi/ReactNative-Taschenrechner">Github</a>
               </div>
               <div>|</div>
               <div>

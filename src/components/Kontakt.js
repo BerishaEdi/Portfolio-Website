@@ -3,7 +3,9 @@ import React from 'react'
 const Kontakt = () => {
   return (
     <div>
+        <a name='kontakt'> 
         <p className="titelk">Kontakt</p>
+        </a>    
         <div className="socialsGrid">
             <div>
                 <a href="mailto:eduard.berisha@stud.altekanti.ch" className="Link" target="_blank" rel="noreferrer">
