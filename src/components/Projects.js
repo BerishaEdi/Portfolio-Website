@@ -5,8 +5,8 @@ import botImg from "../images/bot.png"
 
 const Projects = () => {
   return (
-    <div className='Socials'>
-        <p className='titelProjects'>Projekte</p>
+    <div className='projects'>
+        <h1 className='titelProjects'>Projekte</h1>
         <div class="grid">
 
           <div class="div1"> 

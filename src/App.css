@@ -94,7 +94,10 @@
   text-align: center;
   font-size: 4rem;
   font-weight: bold;
+  padding: 0.5em;
   margin-top: -1em;
+  background-color: #381B91;
+
 }
 
 .skills {
@@ -111,8 +114,15 @@
   width: 100%;
 }
 
+
+.projects{
+  background-color: #32bbc4;
+  margin-top: -5  em;
+}
+
 .titelProjects {
-  margin: 0.75em;
+  margin-bottom: 1.5em;
+  margin-top: -0.1em;
   text-align: center;
   font-size: 4rem;
 }
@@ -182,10 +192,13 @@
   grid-row-gap: 0px;
   }
   
- .Socials {
-  margin-top: 20px;
- } 
+.Socials {
+   margin-top: 20px;
+} 
 
+.kontakt {
+  background-color: #b9ff00;
+}
 
 .calculatorimg {
   display: block;
@@ -217,10 +230,14 @@
   font-size: 1.5rem;
 }
 
+
+
 .skillsimg {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: #381B91;
+  padding-bottom: 1em;
 }
 
 
@@ -228,7 +245,7 @@
 .titelk {
   text-align: center;
   font-size: 4rem;
-  margin-top: 3em;
+  margin-bottom: 5em;
 }
 
 
