@@ -12,6 +12,7 @@ const AboutMe = () => {
           height="100%"
           version="1.1"
           viewBox="0 0 900 300"
+          className='svgAboutMe'
         >
           <path fill="#FFF" d="M0 0H900V300H0z"></path>
           <path

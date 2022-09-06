@@ -1,14 +1,14 @@
 .titel {
   text-align: left;
-  font-size: 3.5rem;
+  font-size: 1rem;
   margin-top: 20%;
 }
 
 .titelAdd {
-  margin-top: -35px;
-  margin-left: 2px;
+  margin-top: -15px;
+  margin-left: 0.5px;
   text-align: left;
-  font-size: 2rem;
+  font-size: 0.7rem;
   color: gray;
 }
 
@@ -23,31 +23,21 @@
   margin-right: auto;
   display: block;
   border-radius: 15px;
+  width: 30%;
   
 }
 
 .aboutMe {
-  font-size: 2rem;
   text-align: center;
 }
 
-.aboutmeTitel {
+.txtAusbildung {
+  color: aliceblue;
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  margin-top: -1em;  
 }
 
-.aboutmeTiteltxt {
-  text-align: center;
-  font-size: 3rem;
-}
-
-.waves {
-  width: 100%;
-}
-
-.image {
-  align-self: left;
-}
 
 .menu {
   background-color: white;
@@ -81,23 +71,14 @@
   margin-bottom: -1em;
 }
 
-.txtAusbildung {
-
-  color: aliceblue;
-  text-align: center;
-  font-size: 4rem;
-  margin-top: -1em;
-
-}
 
 .titelSkills {
   text-align: center;
-  font-size: 4rem;
+  font-size: 1.5rem;
   font-weight: bold;
   padding: 0.5em;
   margin-top: -1em;
   background-color: #381B91;
-
 }
 
 .skills {
@@ -110,21 +91,16 @@
   margin-bottom: 0em;
 }
 
-.svgflipped {
-  width: 100%;
-}
-
-
 .projects{
   background-color: #32bbc4;
   margin-top: -5  em;
 }
 
 .titelProjects {
-  margin-bottom: 1.5em;
-  margin-top: -0.1em;
+  margin-bottom: 1.5rem;
+  margin-top: -0.2em;
   text-align: center;
-  font-size: 4rem;
+  font-size: 1.5rem;
 }
 
 .Link {
@@ -133,7 +109,8 @@
   justify-content: center;
   color: black;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin-top: 3em;
 }
 
 .Link:link {
@@ -152,7 +129,7 @@
   justify-content: right;
   color: black;
   text-decoration: none;
-  font-size: 100%;
+  font-size: 1em;
   margin-right: 0.25em;
 }
 
@@ -171,7 +148,7 @@
   justify-content: left;
   color: black;
   text-decoration: none;
-  font-size: 100%;
+  font-size: 1em;
   margin-left: 0.25em;
 }
 
@@ -185,13 +162,6 @@
   text-decoration: none;
 }
 
-
-.grid {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-row-gap: 0px;
-  }
-  
 .Socials {
    margin-top: 20px;
 } 
@@ -227,7 +197,8 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr;
   margin-top: 0.5em;
-  font-size: 1.5rem;
+  font-size: 1rem;
+  margin-bottom: -1em;
 }
 
 
@@ -244,8 +215,8 @@
 
 .titelk {
   text-align: center;
-  font-size: 4rem;
-  margin-bottom: 5em;
+  font-size: 1.5rem;
+  margin-top: -0em;
 }
 
 
@@ -255,4 +226,288 @@
   margin-top: 10em;
   font-size: 1.5rem;
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+
+  .titel {
+    text-align: left;
+    font-size: 3.5rem;
+    margin-top: 20%;
+  }
+  
+  .titelAdd {
+    margin-top: -35px;
+    margin-left: 2px;
+    text-align: left;
+    font-size: 2rem;
+    color: gray;
+  }
+  
+  .homeGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  
+  .portrait {
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+    
+  }
+  
+  .aboutMe {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .aboutmeTitel {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .aboutmeTiteltxt {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  .svgAboutMe{
+
+  }
+  
+  .image {
+    align-self: left;
+  }
+  
+  .menu {
+    background-color: white;
+    height: 1px;
+    width: 100%;
+  }
+  
+  .button {
+    width: 1em;
+    height: 1em;
+    margin: 1em;
+  }
+  
+  .timeline {
+    background-color:#0B0B17;
+    margin: 0;
+    width: 100%;
+    
+  }
+  
+  .imgTimeline {
+    width: 50%;
+  }
+  
+  
+  .filler {
+    background-color: #0B0B17;
+    height: 3em;
+    color:#0B0B17;
+    margin-top: -1em;
+    margin-bottom: -1em;
+  }
+  
+  .txtAusbildung {
+  
+    color: aliceblue;
+    text-align: center;
+    font-size: 4rem;
+    margin-top: -1em;
+  
+  }
+  
+  .titelSkills {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 0.5em;
+    margin-top: -1em;
+    background-color: #381B91;
+  
+  }
+  
+  .skills {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .svg {
+    width: 100%;
+    margin-bottom: 0em;
+  }
+  
+  .svgflipped {
+    width: 100%;
+  }
+  
+  
+  .projects{
+    background-color: #32bbc4;
+    margin-top: -5  em;
+  }
+  
+  .titelProjects {
+    margin-bottom: 1.5em;
+    margin-top: -0.1em;
+    text-align: center;
+    font-size: 4rem;
+  }
+  
+  .Link {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+  .Link:link {
+    color: black;
+  }
+  
+  .Link:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  
+  .githubLink {
+    display: flex;
+    justify-content: right;
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+    margin-right: 0.25em;
+  }
+  
+  .gitzhubLink:link {
+    color: black;
+  }
+  
+  .githubLink:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  .portfolioLink {
+    display: flex;
+    justify-content: left;
+    color: black;
+    text-decoration: none;
+    font-size: 100%;
+    margin-left: 0.25em;
+  }
+  
+  .portfolioLink:link {
+    color: black;
+  }
+  
+  .portfolioLink:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-row-gap: 0px;
+    }
+    
+  .Socials {
+     margin-top: 20px;
+  } 
+  
+  .kontakt {
+    background-color: #b9ff00;
+  }
+  
+  .calculatorimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+  }
+  
+  
+  .platformerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+  }
+  
+  .botimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+  }
+  
+  
+  .innergrid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    margin-top: 0.5em;
+    font-size: 1.5rem;
+  }
+  
+  
+  
+  .skillsimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #381B91;
+    padding-bottom: 1em;
+  }
+  
+  
+  
+  .titelk {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 5em;
+  }
+  
+  
+  .socialsGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 10em;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+
 }
