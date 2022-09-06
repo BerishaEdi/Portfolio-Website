@@ -17,6 +17,7 @@ const Skills = () => {
       height="auto"
       version="1.1"
       viewBox="0 0 200 50"
+      className='svgSkills'
     >
       <path fill="#381B91" d="M0 0H200V50H0z"></path>
       <path
