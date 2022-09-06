@@ -40,6 +40,7 @@ const Kontakt = () => {
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 20 20"
                             fill="currentColor"
+                            className='svgSocials'
                             width="25%"
                             height="auto"
                         >
@@ -54,6 +55,7 @@ const Kontakt = () => {
                             fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 30 30"
+                            className='svgSocials'
                             width="25%"
                             height="auto"
                         >
@@ -68,6 +70,7 @@ const Kontakt = () => {
                             fill="currentColor"
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 30 30"
+                            className='svgSocials'
                             width="25%"
                             height="auto"
 

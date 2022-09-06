@@ -55,11 +55,10 @@
   background-color:#0B0B17;
   margin: 0;
   width: 100%;
-  
 }
 
 .imgTimeline {
-  width: 100%;
+  width: 90%;
 }
 
 
@@ -84,6 +83,17 @@
 .skills {
   display: flex;
   justify-content: center;
+}
+
+.skillsimg{
+  width: 100%;
+}
+
+.imgSkills {
+  display: block;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .svgSkills {
@@ -227,9 +237,15 @@
 .socialsGrid {
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  margin-top: 10em;
+  margin-top: 5em;
   font-size: 1.5rem;
   text-align: center;
+}
+
+.svgSocials {
+  width: 50%;
+  height: auto;
+  margin-bottom: 2em;
 }
 
 
@@ -287,9 +303,6 @@
     font-size: 3rem;
   }
   
-  .svgAboutMe{
-
-  }
   
   .image {
     align-self: left;
@@ -349,6 +362,17 @@
   .skills {
     display: flex;
     justify-content: center;
+  }
+
+  .skillsimg{
+    width: 100%;
+  }
+  
+  .imgSkills {
+    display: block;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .svg {
@@ -502,6 +526,14 @@
     font-size: 1.5rem;
     text-align: center;
   }
+
+
+  .svgSocials {
+    width: 25 %;
+    height: auto;
+    margin-bottom: 2em;
+  }
+  
 
 
 }

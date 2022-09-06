@@ -8,7 +8,7 @@ const Skills = () => {
     <div>
       <div className='skillsimg'>
         <p className='titelSkills'>Skills</p>
-        <img src={skills} alt="Skill" className='skillsimg' width="40%"></img>
+        <img src={skills} alt="Skill" className='imgSkills' width="100%"></img>
       </div>
 
       <svg
