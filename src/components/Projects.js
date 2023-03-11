@@ -1,6 +1,6 @@
 import React from 'react'
 import calculatorImg from "../images/calculator.png"
-import platformerImg from "../images/platformer.png"
+import toDoImg from "../images/ToDo.png"
 import botImg from "../images/bot.png"
 
 const Projects = () => {
@@ -24,17 +24,17 @@ const Projects = () => {
           </div>
 
           <div class="div2"> 
-            <a className='Link' href="https://portfolio.bbbaden.ch/view/view.php?t=7KJovi5FsLgPlyB96fw2">Java <br></br> Platformer</a>
+            <a className='Link' href="https://github.com/BerishaEdi/React-Native-TodoApp">React Native, Firebase <br></br> ToDo App</a>
             <div className='innergrid'>
               <div>
-                <a className='githubLink' href="https://github.com/BerishaEdi/Java-Platformer">Github</a>
+                <a className='githubLink' href="https://github.com/BerishaEdi/React-Native-TodoApp">Github</a>
               </div>
               <div>|</div>
               <div>
-                <a className='portfolioLink' href="https://portfolio.bbbaden.ch/view/view.php?t=7KJovi5FsLgPlyB96fw2">Portfolio</a>
+                <a className='portfolioLink' href="https://github.com/BerishaEdi/React-Native-TodoApp">Portfolio</a>
               </div>
             </div>
-            <img src={platformerImg} alt="platformerIMG" width="90%" height="auto" className='platformerimg'></img>
+            <img src={toDoImg} alt="platformerIMG" width="50%" height="auto" className='platformerimg'></img>
           </div>
 
           <div class="div3">  
