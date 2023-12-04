@@ -9,7 +9,7 @@ import Skills from './components/Skills';
 function App() {
   return (
     <div>
-      Offline
+      Offline.
     </div>
     /* <div className="App">
       <Navbar></Navbar>
