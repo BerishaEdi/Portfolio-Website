@@ -6,8 +6,8 @@ const Home = () => {
         <div className='home'>
             <div className='homeGrid'>
               <div>
-                <img src={portraitimg} alt="Portrait" className='portrait' width="40%" height="auto" ></img>
-              </div>
+{/*                 <img src={portraitimg} alt="Portrait" className='portrait' width="40%" height="auto" ></img>
+ */}              </div>
               <div>
                 <h1 className='titel'> Eduard Berisha</h1>
                 <p className='titelAdd'>Informatiker in Ausbildung</p>
