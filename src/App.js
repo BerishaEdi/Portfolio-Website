@@ -8,14 +8,17 @@ import Skills from './components/Skills';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      Offline
+    </div>
+    /* <div className="App">
       <Navbar></Navbar>
       <Home></Home>
       <AboutMe></AboutMe>
       <Skills></Skills>
       <Projects></Projects>
       <Kontakt></Kontakt>
-    </div>
+    </div> */
   );
 }
 
